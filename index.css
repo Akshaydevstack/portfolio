@@ -1,5 +1,14 @@
 body {
   font-family: 'Segoe UI', sans-serif;
+  
+}
+
+body {
+  overflow-x: hidden;
+}
+img, .container, .row, .col {
+  max-width: 100%;
+  box-sizing: border-box;
 }
 
 h1, h2 {
