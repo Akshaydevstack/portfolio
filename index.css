@@ -6,7 +6,7 @@ body {
 body {
   overflow-x: hidden;
 }
-img, .container, .row, .col {
+img, .container{
   max-width: 100%;
   box-sizing: border-box;
 }
