@@ -1,0 +1,101 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+}
+
+h1, h2 {
+  font-weight: 700;
+}
+
+#navbar{
+    position:sticky;
+    top: 0px;
+    z-index: 1000;
+ background: linear-gradient(to right bottom, #d0dae4ce, #c0d3e5);
+   font-size: larger;
+}
+#herosection{
+  background: linear-gradient(to right bottom, #e3e7ebce, #a0b8cf);
+    border-radius: 50px;
+    padding: 15px;
+}
+#header{
+ background: linear-gradient(to right, #f8f9fa, #e0eafc);
+}
+
+#navbar a{
+  color:#0d324d;
+}
+
+#about {
+  padding: 40px;
+  background: linear-gradient(to right, #f8f9fa, #e9ecef);
+}
+
+#about h2 {
+  color: #0d324d;
+}
+
+#about p {
+  color: #333;
+  font-size: 1.1rem;
+}
+
+#about img {
+  border: 5px solid #fff;
+}
+
+#experience {
+  background: linear-gradient(to right, #f8f9fa, #e0eafc);
+}
+
+#experience h2 {
+  color: #0d324d;
+  font-weight: bold;
+}
+
+#experience .card {
+  border-left: 5px solid #0d324d;
+  transition: transform 0.3s ease;
+}
+
+#experience .card:hover {
+  transform: translateY(-5px);
+}
+
+#contact h2 {
+  color: #0d324d;
+  font-weight: 600;
+}
+
+#contact .card {
+  background: #ffffff;
+  border-radius: 1rem;
+}
+
+#contact .form-control {
+  font-size: 1rem;
+}
+
+#contact .btn-primary {
+  background: linear-gradient(to right, #0061ff, #60efff);
+  border: none;
+  font-weight: 500;
+}
+#contact{
+  background: linear-gradient(to right bottom, #e1e4e9, #e9ecef);
+}
+
+#contact h2 {
+  color: #0d324d;
+  font-weight: bold;
+}
+
+#contact a {
+  text-decoration: none ;
+}
+
+#projects{
+
+   background: linear-gradient(to right , #aabebe44, #e9ecef);
+}
+
