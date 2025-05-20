@@ -1,45 +1,46 @@
 body {
   font-family: 'Segoe UI', sans-serif;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-     overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  overflow-x: hidden;
 }
 
-
-img, .container{
+img,
+.container {
   max-width: 100%;
   box-sizing: border-box;
 }
 
-
-
 footer {
-    margin-top: auto;
+  margin-top: auto;
 }
 
-h1, h2 {
+h1,
+h2 {
   font-weight: 700;
 }
 
-#navbar{
-    position:sticky;
-    top: 0px;
-    z-index: 1000;
- background: linear-gradient(to right bottom, #d0dae4ce, #c0d3e5);
-   font-size: larger;
-}
-#herosection{
-  background: linear-gradient(to right bottom, #e3e7ebce, #a0b8cf);
-    border-radius: 50px;
-    padding: 15px;
-}
-#header{
- background: linear-gradient(to right, #f8f9fa, #e0eafc);
+#navbar {
+  position: sticky;
+  top: 0px;
+  z-index: 1000;
+  background: linear-gradient(to right bottom, #d0dae4ce, #c0d3e5);
+  font-size: larger;
 }
 
-#navbar a{
-  color:#0d324d;
+#herosection {
+  background: linear-gradient(to right bottom, #e3e7ebce, #a0b8cf);
+  border-radius: 50px;
+  padding: 15px;
+}
+
+#header {
+  background: linear-gradient(to right, #f8f9fa, #e0eafc);
+}
+
+#navbar a {
+  color: #0d324d;
 }
 
 #about {
@@ -97,7 +98,8 @@ h1, h2 {
   border: none;
   font-weight: 500;
 }
-#contact{
+
+#contact {
   background: linear-gradient(to right bottom, #e1e4e9, #e9ecef);
 }
 
@@ -107,69 +109,77 @@ h1, h2 {
 }
 
 #contact a {
-  text-decoration: none ;
+  text-decoration: none;
 }
 
-#projects{
+#projects {
 
-   background: linear-gradient(to right , #aabebe44, #e9ecef);
+  background: linear-gradient(to right, #aabebe44, #e9ecef);
 }
 
 
 
 @keyframes bounce {
-    0%, 100% {
-        transform: translateY(0);
-    }
-    50% {
-        transform: translateY(-6px);
-    }
+
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-6px);
+  }
 }
 
 .footer-link {
-    transition: color 0.3s ease;
+  transition: color 0.3s ease;
 }
 
 .footer-icon {
-    transition: transform 0.3s ease, filter 0.3s ease;
+  transition: transform 0.3s ease, filter 0.3s ease;
 }
 
 .footer-link.whatsapp:hover {
-    color: #25D366 !important;
+  color: #25D366 !important;
 }
+
 .footer-link.whatsapp:hover .footer-icon {
-    animation: bounce 0.5s;
-    filter: drop-shadow(0 0 5px #25D366);
+  animation: bounce 0.5s;
+  filter: drop-shadow(0 0 5px #25D366);
 }
 
 .footer-link.github:hover {
-    color: #44a3d6 !important;
+  color: #44a3d6 !important;
 }
+
 .footer-link.github:hover .footer-icon {
-    animation: bounce 0.5s;
-    filter: drop-shadow(0 0 5px #555);
+  animation: bounce 0.5s;
+  filter: drop-shadow(0 0 5px #555);
 }
 
 .footer-link.linkedin:hover {
-    color: #0077B5 !important;
+  color: #0077B5 !important;
 }
+
 .footer-link.linkedin:hover .footer-icon {
-    animation: bounce 0.5s;
-    filter: drop-shadow(0 0 5px #0077B5);
+  animation: bounce 0.5s;
+  filter: drop-shadow(0 0 5px #0077B5);
 }
 
 .footer-link.phone:hover {
-    color: #0dcaf0 !important;
+  color: #0dcaf0 !important;
 }
+
 .footer-link.phone:hover .footer-icon {
-    animation: bounce 0.5s;
-    filter: drop-shadow(0 0 5px #0dcaf0);
+  animation: bounce 0.5s;
+  filter: drop-shadow(0 0 5px #0dcaf0);
 }
 
 .footer-link.email:hover {
-    color: #f44336 !important;
+  color: #f44336 !important;
 }
+
 .footer-link.email:hover .footer-icon {
-    animation: bounce 0.5s;
-    filter: drop-shadow(0 0 5px #f44336);
+  animation: bounce 0.5s;
+  filter: drop-shadow(0 0 5px #f44336);
 }

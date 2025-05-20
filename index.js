@@ -10,6 +10,7 @@ form.addEventListener('submit', function (e) {
   const object = Object.fromEntries(formData);
   const json = JSON.stringify(object);
 
+
   result.innerHTML = "Please wait...";
 
   fetch('https://api.web3forms.com/submit', {
@@ -20,6 +21,7 @@ form.addEventListener('submit', function (e) {
     },
     body: json
   })
+
     .then(async (response) => {
       let json = await response.json();
       if (response.status === 200) {
