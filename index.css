@@ -1,14 +1,21 @@
 body {
   font-family: 'Segoe UI', sans-serif;
-  
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+     overflow-x: hidden;
 }
 
-body {
-  overflow-x: hidden;
-}
+
 img, .container{
   max-width: 100%;
   box-sizing: border-box;
+}
+
+
+
+footer {
+    margin-top: auto;
 }
 
 h1, h2 {
@@ -108,3 +115,61 @@ h1, h2 {
    background: linear-gradient(to right , #aabebe44, #e9ecef);
 }
 
+
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-6px);
+    }
+}
+
+.footer-link {
+    transition: color 0.3s ease;
+}
+
+.footer-icon {
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.footer-link.whatsapp:hover {
+    color: #25D366 !important;
+}
+.footer-link.whatsapp:hover .footer-icon {
+    animation: bounce 0.5s;
+    filter: drop-shadow(0 0 5px #25D366);
+}
+
+.footer-link.github:hover {
+    color: #44a3d6 !important;
+}
+.footer-link.github:hover .footer-icon {
+    animation: bounce 0.5s;
+    filter: drop-shadow(0 0 5px #555);
+}
+
+.footer-link.linkedin:hover {
+    color: #0077B5 !important;
+}
+.footer-link.linkedin:hover .footer-icon {
+    animation: bounce 0.5s;
+    filter: drop-shadow(0 0 5px #0077B5);
+}
+
+.footer-link.phone:hover {
+    color: #0dcaf0 !important;
+}
+.footer-link.phone:hover .footer-icon {
+    animation: bounce 0.5s;
+    filter: drop-shadow(0 0 5px #0dcaf0);
+}
+
+.footer-link.email:hover {
+    color: #f44336 !important;
+}
+.footer-link.email:hover .footer-icon {
+    animation: bounce 0.5s;
+    filter: drop-shadow(0 0 5px #f44336);
+}
